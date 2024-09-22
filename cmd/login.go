@@ -36,7 +36,7 @@ var loginCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		ctx = context.Background()
 		conf = &oauth2.Config{
-			ClientID: "6622cea4fe86432287916c67bc3cc4e5",
+			ClientID: "97b797a7fbd94f5dafed109a2b655a94",
 			Scopes:   []string{"user-read-currently-playing", "user-read-private", "user-read-playback-state"},
 			Endpoint: oauth2.Endpoint{
 				AuthURL:  "https://accounts.spotify.com/authorize",
